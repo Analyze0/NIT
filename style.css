@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Nimbus Sans Bold';
+  src: url('https://nit.analyze185.repl.co/fonts/NibusSanL-Bol.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+.header{
+  font-size:12px;
+  color:white;
+  display:flex;
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  height:78px;
+  background:#6499E9;
+  width:100%;
+  position:fixed;
+  top:0px;
+  left:0px;
+}
+.logo{
+  cursor:pointer;
+  transform:translateY(-7px) translateX(7px);
+  width:90px;
+  height:90px;
+}
+.title{
+  cursor:pointer;
+  transform:translateY(3px) translateX(7px);
+}
+.search{
+  font-size:40px;
+  cursor:pointer;
+  user-select:none;
+  position:fixed;
+  top:0px;
+  right:0px;
+  background:#9EDDFF;
+  height:78px;
+  width:78px;
+  border:0px;
+  color:white;
+}
+.links{
+  font-size:16px;
+  position:fixed;
+  right:150px;
+  top:27.5px;
+}
+.links a{
+  margin-left:15px;
+  color:white;
+  text-decoration:none;
+}
+.links a:hover{
+  text-decoration: underline;
+  text-decoration-color:#9EDDFF !important;
+  text-decoration-thickness: 2px;
+}
+.main{
+  font-weight:100;
+  margin-top:78px;
+  font-family: 'IBM Plex Sans', sans-serif !important;
+}
+.sidebar{
+  transform:translateX(-8px);
+  width:410px;
+  background:#ededed;
+  position:fixed;
+  height:100%;
+}
+.sidebar-content{
+  margin-left:23px;
+  padding-top:45px;
+}
+.input-wrapper{
+  display:flex;
+  background:white;
+  -webkit-box-shadow: 0px 0px 45px -29px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 45px -29px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 45px -29px rgba(0,0,0,0.75);
+  width:357px;
+  height:76px;
+}
+.input-wrapper .icon{
+  color:#9EDDFF;
+  font-size:40px;
+  margin:20px;
+}
+.searchTwo{
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  transform:translateX(-10px);
+  font-size:18px;
+  width:300px;
+  border:none;
+}
+.searchTwo:focus{
+  outline:none;
+}
+
+::-moz-selection {
+  color: white;
+  background: black;
+}
+::selection {
+  color: white;
+  background: black;
+}

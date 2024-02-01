@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'Nimbus Sans Bold';
+  src: url('https://nit.analyze185.repl.co/fonts/NibusSanL-Bol.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Public+Sans&display=swap');
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+html {
+  overflow-x:hidden;
+  height: 100%;
+  width: 100%;
+}
+.header{
+  z-index:110;
+  font-size:12px;
+  color:white;
+  display:flex;
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  height:78px;
+  background:#6499E9;
+  width:100%;
+  position:fixed;
+  top:0px;
+  left:0px;
+}
+.logo{
+  cursor:pointer;
+  transform:translateY(-7px) translateX(7px);
+  width:90px;
+  height:90px;
+}
+.title{
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  cursor:pointer;
+  transform:translateY(3px) translateX(7px);
+}
+.search{
+  font-size:40px;
+  cursor:pointer;
+  user-select:none;
+  position:fixed;
+  top:0px;
+  right:0px;
+  background:#9EDDFF;
+  height:78px;
+  width:78px;
+  border:0px;
+  color:white;
+}
+.links{
+  font-size:16px;
+  position:fixed;
+  right:150px;
+  top:27.5px;
+}
+.links a{
+  margin-left:15px;
+  color:white;
+  text-decoration:none;
+}
+.links a:hover{
+  text-decoration: underline;
+  text-decoration-color:#9EDDFF !important;
+  text-decoration-thickness: 2px;
+}
+.alumni{
+  text-decoration: underline !important;
+  text-decoration-color:#9EDDFF !important;
+  text-decoration-thickness: 2px !important;
+}
+.main{
+  font-weight:100;
+  margin-top:78px;
+  font-family: 'IBM Plex Sans', sans-serif !important;
+}
+.sidebar{
+  transform:translateX(-8px);
+  width:76px;
+  background:white;
+  border-right:1px solid #CECECE;
+  position:fixed;
+  height:100%;
+}
+.sidebar-content{
+  display:flex;
+  transform:rotate(90deg) translateX(60px);
+}
+.sidebar-content h2{
+  margin-right:10px;
+}
+.input-wrapper{
+  display:flex;
+  background:white;
+  -webkit-box-shadow: 0px 0px 45px -29px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 45px -29px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 45px -29px rgba(0,0,0,0.75);
+  width:357px;
+  height:76px;
+}
+.input-wrapper .icon{
+  color:#9EDDFF;
+  font-size:40px;
+  margin:20px;
+}
+.searchTwo{
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  transform:translateX(-10px);
+  font-size:18px;
+  width:300px;
+  border:none;
+}
+.searchTwo:focus{
+  outline:none;
+}
+.container{
+  margin-left:110px;
+  transform:translateY(80px);
+}
+.home{
+  color:gray;
+  text-decoration:none;
+}
+.home:hover{
+  text-decoration: underline;
+  color:#9EDDFF;
+  text-decoration-color:#9EDDFF !important;
+  text-decoration-thickness: 2px;
+}
+.dash{
+  color:#6499E9;
+}
+.about-description{
+  width:680px;
+  font-size:28px;
+  font-weight: 400;
+  font-family: 'Public Sans', sans-serif;
+}
+.paragraph-link{
+  color:black;
+  text-decoration: underline;
+  text-decoration-color:#9EDDFF !important;
+  text-decoration-thickness: 2px;
+}
+.paragraph-link:hover{
+  text-decoration: underline;
+  color:#9EDDFF;
+  text-decoration-color:#9EDDFF !important;
+  text-decoration-thickness: 2px;
+}
+.container-two{
+  display:flex;
+  font-family: 'Public Sans', sans-serif;
+}
+.container-two p{
+  margin-right:40px;
+  line-height: 28px;  
+}
+.container-two img{
+  margin-right:70px;
+}
+.container-three{
+  width:110%;
+  height:640px;
+  background:#5984c5;
+}
+.footer{
+  margin-left:69px;
+  color:white;
+  height:130px;
+  background:black;
+  width:110%;
+}
+.footer .stamp{
+  transform:translate(30px, 30px);
+  background-image: url(/images/stamp1.png);
+  width:100px;
+  background-size:cover;
+  height:50px;
+}
+.footer .stamp:hover{
+  cursor:pointer;
+  background-image: url(/images/stamp2.png)
+}
+.footer .content{
+  font-family: 'Public Sans', sans-serif;
+  font-size:12px;
+  transform:translate(170px, -20px);
+}
+.container-four{
+  margin-left:110px;
+}
+hr{
+  z-index:130;
+  width:1000%;
+  height: 1px;
+  background-color: #CECECE;
+  border: none;
+}
+p{
+  font-family: 'Public Sans', sans-serif;
+}
+h1{
+  font-family: 'Public Sans', sans-serif;
+}
+.flex-container {
+  margin-left:102px;
+  display: flex;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  font-size: 30px;
+}
+.photo1{
+  width:230px;
+  height:300px;
+  background-size: cover;
+  background-image: url(images/alumni2.png);
+}
+.photo2{
+  width:230px;
+  height:300px;
+  background-size: cover;
+  background-image: url(images/alumni3.jpg);
+  background-position:center;
+}
+.photo3{
+  width:230px;
+  height:300px;
+  background-size: cover;
+  background-image: url(images/alumni4.png);
+  background-position:center;
+}
+.photo4{
+  width:230px;
+  height:300px;
+  background-size: cover;
+  background-image: url(images/alumni5.jpg);
+  background-position:center;
+}
+.photo5{
+  width:230px;
+  height:300px;
+  background-size: cover;
+  background-image: url(images/alumni6.jpg);
+  background-position:center;
+}
+.photo6{
+  width:230px;
+  height:300px;
+  background-size: cover;
+  background-image: url(images/alumni7.png);
+  background-position:center;
+}
+.photo7{
+  width:230px;
+  height:300px;
+  background-size: cover;
+  background-image: url(images/alumni8.png);
+  background-position:center;
+}
+
+
+::-moz-selection {
+  color: white;
+  background: black;
+}
+::selection {
+  color: white;
+  background: black;
+}
